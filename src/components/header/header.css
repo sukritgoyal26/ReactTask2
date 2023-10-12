@@ -1,0 +1,35 @@
+.header{
+    flex: 1;
+    padding: 20px;
+    background-color: #172D67;
+    overflow-y: scroll;
+    color: rgb(216, 216, 216);
+}
+
+.header p{
+    
+    line-height: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.history p{
+    font-size: 1rem;
+}
+.expression{
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.expression p{
+    font-size: 1rem;
+    white-space: nowrap;
+    width: fit-content;
+    min-width: 100%;
+    font-weight: bold;
+
+}
+
+.result{
+    font-weight: bold;
+    font-size:1.5rem ;
+}
